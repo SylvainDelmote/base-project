@@ -1,0 +1,16 @@
+@import './nord.scss';
+
+body.body--light{
+  --q-primary : white;
+  --q-secondary : var(--nord7);
+  --q-accent: var(--nord11)
+}
+
+body.body--dark{
+  --q-primary : var(--nord1);
+  --q-secondary : var(--nord2);
+  --q-dark : var(--nord1);
+  --q-dark-page : var(--nord1);
+  --q-accent: var(--nord9)
+
+}

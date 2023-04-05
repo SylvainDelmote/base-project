@@ -1,0 +1,17 @@
+// app global css in SCSS form
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: inherit;
+}
+
